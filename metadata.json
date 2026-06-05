@@ -1,0 +1,6 @@
+{
+  "name": "Anas Portfolio",
+  "description": "A modern Apple-style developer portfolio website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
