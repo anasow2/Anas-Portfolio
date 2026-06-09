@@ -4,14 +4,14 @@ import { fadeUpScaleVariant, staggerContainer, fadeUpVariant } from '../utils/an
 const testimonials = [
   {
     id: 1,
-    content: "Anas is an exceptional developer who consistently delivers high-quality code. His attention to detail and clean design principles perfectly matching our brand made a huge difference.",
+    content: "ANAS DEV is an exceptional developer who consistently delivers high-quality code. His attention to detail and clean design principles perfectly matching our brand made a huge difference.",
     author: "Sarah Jenkins",
     role: "Product Manager",
     company: "TechFlow"
   },
   {
     id: 2,
-    content: "Working with Anas was a breeze. He brought our complex ideas to life with an elegant, performant mobile application. Truly a master of both engineering and UX design.",
+    content: "Working with ANAS DEV was a breeze. He brought our complex ideas to life with an elegant, performant mobile application. Truly a master of both engineering and UX design.",
     author: "David Chen",
     role: "Founder",
     company: "Lumina Startups"

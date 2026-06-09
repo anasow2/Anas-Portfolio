@@ -23,7 +23,7 @@ export default function Navbar() {
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       className="fixed top-0 left-0 right-0 z-50 h-12 w-full border-b border-gray-100 flex items-center justify-between px-6 md:px-12 bg-white/80 backdrop-blur-md"
     >
-      <span className="font-semibold text-lg tracking-tight">Anas</span>
+      <span className="font-semibold text-lg tracking-tight">ANAS DEV</span>
       <div className="hidden md:flex gap-8 text-xs font-medium text-[#424245]">
         <a href="#work" onClick={(e) => scrollToSection(e, 'work')} className="hover:text-blue-600 cursor-pointer transition-colors">Work</a>
         <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="hover:text-blue-600 cursor-pointer transition-colors">About</a>

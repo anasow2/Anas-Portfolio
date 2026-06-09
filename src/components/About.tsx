@@ -15,7 +15,7 @@ export default function About() {
         <h2 className="text-xl font-semibold text-[#1d1d1f]">About</h2>
       </div>
       <p className="text-[#424245] leading-relaxed text-sm">
-        Passionate developer dedicated to building elegant, high-performance applications. I specialize in turning complex problems into intuitive user experiences using modern stacks.
+        I specialize in building stunning Apps and Websites entirely through Vibe Coding and AI. I don't write traditional code; instead, I instruct advanced AI tools to engineer, design, and deploy high-performance applications from the ground up.
       </p>
     </motion.section>
   );

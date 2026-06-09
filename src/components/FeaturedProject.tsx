@@ -13,7 +13,7 @@ export default function FeaturedProject() {
     >
       <div className="w-full md:w-1/2 p-10 flex flex-col justify-center z-10">
         <span className="text-[#0071e3] font-bold text-xs uppercase tracking-widest mb-4 flex items-center gap-2">
-          FEATURED PROJECT <span className="text-gray-500">•</span> BUILT BY ANAS
+          FEATURED PROJECT <span className="text-gray-500">•</span> BUILT BY ANAS DEV
         </span>
         <div className="flex items-center gap-5 mb-5">
           <div className="w-16 h-16 rounded-[18px] shadow-sm bg-white border border-gray-100 flex items-center justify-center p-2 shrink-0">
