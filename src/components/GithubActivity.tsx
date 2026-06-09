@@ -80,15 +80,15 @@ export default function GithubActivity() {
         className="w-full flex flex-col md:flex-row gap-8"
       >
         <div className="w-full md:w-1/3 flex flex-col gap-6">
-          <div className="bg-white border border-gray-200 shadow-sm rounded-3xl p-8 flex-1 flex flex-col">
+          <div className="bg-[#f5f5f7] rounded-3xl p-8 flex-1 flex flex-col">
             <div className="flex items-center gap-4 mb-6">
-              <Github className="w-8 h-8 text-[#0a192f]" />
-              <h2 className="text-xl font-semibold text-[#0a192f]">GitHub Activity</h2>
+              <Github className="w-8 h-8 text-[#1d1d1f]" />
+              <h2 className="text-xl font-semibold text-[#1d1d1f]">GitHub Activity</h2>
             </div>
             
             {data.loading ? (
               <div className="flex-1 flex items-center justify-center">
-                <div className="w-8 h-8 border-4 border-gray-200 border-t-[#10b981] rounded-full animate-spin"></div>
+                <div className="w-8 h-8 border-4 border-gray-200 border-t-[#0071e3] rounded-full animate-spin"></div>
               </div>
             ) : data.error ? (
               <p className="text-sm text-gray-500">{data.error}</p>
@@ -107,18 +107,18 @@ export default function GithubActivity() {
                     className="w-16 h-16 rounded-full border border-gray-200"
                   />
                   <div>
-                    <h3 className="font-semibold text-[#0a192f] group-hover:text-[#10b981] transition-colors">@{data.user?.login}</h3>
+                    <h3 className="font-semibold text-[#1d1d1f] group-hover:text-blue-600 transition-colors">@{data.user?.login}</h3>
                     <p className="text-sm text-gray-500">{data.user?.followers} Followers</p>
                   </div>
                 </a>
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white p-4 rounded-2xl border border-gray-100 text-center">
-                    <p className="text-2xl font-bold text-[#0a192f]">{data.user?.public_repos}</p>
+                    <p className="text-2xl font-bold text-[#1d1d1f]">{data.user?.public_repos}</p>
                     <p className="text-xs text-gray-500 font-medium uppercase tracking-wider mt-1">Total Repos</p>
                   </div>
                   <div className="bg-white p-4 rounded-2xl border border-gray-100 text-center">
-                    <p className="text-2xl font-bold text-[#0a192f]">
+                    <p className="text-2xl font-bold text-[#1d1d1f]">
                       {data.repos.reduce((acc, repo) => acc + repo.stargazers_count, 0)}
                     </p>
                     <p className="text-xs text-gray-500 font-medium uppercase tracking-wider mt-1">Top Stars</p>
@@ -133,7 +133,7 @@ export default function GithubActivity() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-full">
             {data.loading ? (
                Array.from({ length: 4 }).map((_, i) => (
-                 <div key={i} className="bg-white border border-gray-200 shadow-sm rounded-3xl p-6 h-full min-h-[160px] animate-pulse"></div>
+                 <div key={i} className="bg-[#f5f5f7] rounded-3xl p-6 h-full min-h-[160px] animate-pulse"></div>
                ))
             ) : (
               data.repos.map((repo, idx) => (
@@ -146,19 +146,19 @@ export default function GithubActivity() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="bg-white border border-gray-200 shadow-sm hover:bg-[#ebebf0] transition-colors rounded-3xl p-6 flex flex-col justify-between group h-full"
+                  className="bg-[#f5f5f7] hover:bg-[#ebebf0] transition-colors rounded-3xl p-6 flex flex-col justify-between group h-full"
                 >
                   <div>
                     <div className="flex justify-between items-start mb-3">
-                      <h3 className="font-semibold text-[#0a192f] truncate pr-4 group-hover:text-[#10b981] transition-colors">{repo.name}</h3>
-                      <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-[#10b981]" />
+                      <h3 className="font-semibold text-[#1d1d1f] truncate pr-4 group-hover:text-blue-600 transition-colors">{repo.name}</h3>
+                      <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-600" />
                     </div>
                     <p className="text-sm text-gray-500 line-clamp-2">{repo.description || "No description provided."}</p>
                   </div>
                   <div className="flex items-center gap-4 mt-6 text-xs font-medium text-gray-500">
                     {repo.language && (
                       <div className="flex items-center gap-1.5">
-                        <span className="w-2.5 h-2.5 rounded-full bg-[#0a192f]"></span>
+                        <span className="w-2.5 h-2.5 rounded-full bg-[#1d1d1f]"></span>
                         {repo.language}
                       </div>
                     )}

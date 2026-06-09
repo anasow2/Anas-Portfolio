@@ -8,15 +8,15 @@
 body {
   font-family: var(--font-sans);
   background-color: #ffffff;
-  color: #0a192f;
+  color: #1d1d1f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
 ::selection {
-  background-color: rgba(16, 185, 129, 0.2);
-  color: #0a192f;
+  background-color: rgba(0, 113, 227, 0.2);
+  color: #1d1d1f;
 }
 
 html {

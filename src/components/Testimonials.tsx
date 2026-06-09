@@ -35,8 +35,8 @@ export default function Testimonials() {
         viewport={{ once: true, margin: "-50px" }}
         className="mb-8 px-2"
       >
-        <h2 className="text-sm font-bold text-[#64748b] uppercase tracking-widest mb-2">Feedback</h2>
-        <h3 className="text-3xl font-bold tracking-tight text-[#0a192f]">What clients say.</h3>
+        <h2 className="text-sm font-bold text-[#86868b] uppercase tracking-widest mb-2">Feedback</h2>
+        <h3 className="text-3xl font-bold tracking-tight text-[#1d1d1f]">What clients say.</h3>
       </motion.div>
       <motion.div 
         variants={staggerContainer}
@@ -49,14 +49,14 @@ export default function Testimonials() {
           <motion.div 
             key={testimonial.id}
             variants={fadeUpScaleVariant}
-            className="flex flex-col justify-between bg-white border border-gray-200 shadow-sm rounded-3xl p-8 transition-all hover:bg-gray-100"
+            className="flex flex-col justify-between bg-[#f5f5f7] rounded-3xl p-8 transition-all hover:bg-gray-100"
           >
             <p className="text-[#424245] leading-relaxed text-sm mb-8">
               &quot;{testimonial.content}&quot;
             </p>
             <div className="flex flex-col">
-              <span className="text-[#0a192f] font-semibold text-sm tracking-tight">{testimonial.author}</span>
-              <span className="text-[#64748b] text-xs font-medium">{testimonial.role}, {testimonial.company}</span>
+              <span className="text-[#1d1d1f] font-semibold text-sm tracking-tight">{testimonial.author}</span>
+              <span className="text-[#86868b] text-xs font-medium">{testimonial.role}, {testimonial.company}</span>
             </div>
           </motion.div>
         ))}

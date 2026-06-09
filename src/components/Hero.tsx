@@ -27,7 +27,7 @@ export default function Hero() {
       >
         <motion.p 
           variants={fadeUpVariant}
-          className="text-xl md:text-2xl font-medium text-[#64748b] max-w-2xl mx-auto mb-8"
+          className="text-xl md:text-2xl font-medium text-[#86868b] max-w-2xl mx-auto mb-8"
         >
           Developer & Builder of Digital Products
         </motion.p>
@@ -39,14 +39,14 @@ export default function Hero() {
           <a 
             href="#work"
             onClick={(e) => scrollToSection(e, 'work')}
-            className="px-6 py-2.5 bg-[#0a192f] text-white rounded-full font-medium hover:bg-[#112a4d] transition-colors text-sm"
+            className="px-6 py-2.5 bg-[#1d1d1f] text-white rounded-full font-medium hover:bg-[#0077ed] transition-colors text-sm"
           >
             View Projects
           </a>
           <a 
             href="#contact"
             onClick={(e) => scrollToSection(e, 'contact')}
-            className="px-6 py-2.5 bg-transparent text-[#10b981] border border-[#10b981] rounded-full font-medium hover:bg-[#10b981] hover:text-white transition-all text-sm"
+            className="px-6 py-2.5 bg-transparent text-[#0071e3] border border-[#0071e3] rounded-full font-medium hover:bg-[#10b981] hover:text-white transition-all text-sm"
           >
             Contact
           </a>

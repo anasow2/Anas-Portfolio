@@ -30,7 +30,7 @@ export default function Projects() {
           <motion.div 
             key={project.id}
             variants={fadeUpScaleVariant}
-            className="group flex flex-col bg-white border border-gray-200 shadow-sm rounded-3xl p-6 transition-all hover:bg-gray-100 cursor-pointer"
+            className="group flex flex-col bg-[#f5f5f7] rounded-3xl p-6 transition-all hover:bg-gray-100 cursor-pointer"
           >
             <div className="overflow-hidden rounded-2xl bg-white shadow-sm mb-6 border border-gray-100">
               <div className="aspect-[16/9] w-full relative overflow-hidden">
@@ -45,8 +45,8 @@ export default function Projects() {
               </div>
             </div>
             <div className="px-2">
-              <h4 className="text-xs font-bold tracking-widest text-[#64748b] uppercase mb-1">{project.category}</h4>
-              <h3 className="text-xl font-semibold tracking-tight text-[#0a192f] group-hover:text-[#10b981] transition-colors">{project.title}</h3>
+              <h4 className="text-xs font-bold tracking-widest text-[#86868b] uppercase mb-1">{project.category}</h4>
+              <h3 className="text-xl font-semibold tracking-tight text-[#1d1d1f] group-hover:text-blue-600 transition-colors">{project.title}</h3>
             </div>
           </motion.div>
         ))}

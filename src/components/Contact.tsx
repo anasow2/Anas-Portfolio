@@ -24,14 +24,14 @@ export default function Contact() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-50px" }}
-        className="bg-[#0a192f] rounded-3xl p-12 text-center flex flex-col items-center justify-center relative overflow-hidden"
+        className="bg-[#1d1d1f] rounded-3xl p-12 text-center flex flex-col items-center justify-center relative overflow-hidden"
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0a192f] to-[#112a4d]"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0071e3] to-blue-700"></div>
         <div className="relative z-10 max-w-2xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-4">
             Let's build something great.
           </h2>
-          <p className="text-emerald-100 text-lg mb-8 max-w-lg mx-auto">
+          <p className="text-blue-100 text-lg mb-8 max-w-lg mx-auto">
             I'm currently available for new projects or full-time roles. Let's talk.
           </p>
           <div className="flex justify-center items-center gap-4 flex-wrap">
@@ -39,7 +39,7 @@ export default function Contact() {
               href={`mailto:${email}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-3 text-sm font-semibold text-[#0a192f] bg-white rounded-full hover:bg-gray-100 transition-all shadow-lg"
+              className="inline-block px-8 py-3 text-sm font-semibold text-[#1d1d1f] bg-white rounded-full hover:bg-gray-100 transition-all shadow-lg"
             >
               Email Me
             </a>

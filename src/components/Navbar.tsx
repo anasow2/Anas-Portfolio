@@ -25,15 +25,15 @@ export default function Navbar() {
     >
       <span className="font-semibold text-lg tracking-tight">Anas</span>
       <div className="hidden md:flex gap-8 text-xs font-medium text-[#424245]">
-        <a href="#work" onClick={(e) => scrollToSection(e, 'work')} className="hover:text-[#10b981] cursor-pointer transition-colors">Work</a>
-        <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="hover:text-[#10b981] cursor-pointer transition-colors">About</a>
-        <a href="#skills" onClick={(e) => scrollToSection(e, 'skills')} className="hover:text-[#10b981] cursor-pointer transition-colors">Skills</a>
-        <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="hover:text-[#10b981] cursor-pointer transition-colors">Contact</a>
+        <a href="#work" onClick={(e) => scrollToSection(e, 'work')} className="hover:text-blue-600 cursor-pointer transition-colors">Work</a>
+        <a href="#about" onClick={(e) => scrollToSection(e, 'about')} className="hover:text-blue-600 cursor-pointer transition-colors">About</a>
+        <a href="#skills" onClick={(e) => scrollToSection(e, 'skills')} className="hover:text-blue-600 cursor-pointer transition-colors">Skills</a>
+        <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="hover:text-blue-600 cursor-pointer transition-colors">Contact</a>
       </div>
       <a 
         href="#contact" 
         onClick={(e) => scrollToSection(e, 'contact')}
-        className="md:hidden px-4 py-1 text-xs font-medium text-[#10b981] border border-[#10b981] rounded-full hover:bg-[#10b981] hover:text-white transition-all"
+        className="md:hidden px-4 py-1 text-xs font-medium text-[#0071e3] border border-[#0071e3] rounded-full hover:bg-[#10b981] hover:text-white transition-all"
       >
         Contact
       </a>
