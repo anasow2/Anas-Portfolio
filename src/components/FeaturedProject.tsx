@@ -37,11 +37,11 @@ export default function FeaturedProject() {
           ))}
         </div>
         <div className="flex flex-col gap-3 sm:flex-row mt-8 z-20 relative">
-          <a href="#" className="flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white transition-all bg-[#1d1d1f] border border-transparent rounded-xl hover:bg-[#000000] shadow-sm">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white transition-all bg-[#1d1d1f] border border-transparent rounded-xl hover:bg-[#000000] shadow-sm">
             <svg className="w-5 h-5 mr-3" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.04 2.26-.74 3.66-.78 2.53-.1 3.98 1.15 4.81 2.37-2.05 1.25-1.74 4.02.51 5.03-.49 1.43-1.25 2.75-2.21 3.92-.78 1.05-1.42 1.9-1.85 1.63zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.3 2.31-1.92 4.16-3.74 4.25z"/></svg>
             App Store
           </a>
-          <a href="#" className="flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white transition-all bg-[#1d1d1f] border border-transparent rounded-xl hover:bg-[#000000] shadow-sm">
+          <a href="https://play.google.com/store/apps/details?id=app.emergent.sahalmobile00fa2d5d" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white transition-all bg-[#1d1d1f] border border-transparent rounded-xl hover:bg-[#000000] shadow-sm">
             <svg className="w-5 h-5 mr-3" viewBox="0 0 24 24" fill="currentColor"><path d="M5.4 2.8C5.07 3.12 4.9 3.6 4.9 4.27v15.4c0 .66.17 1.15.5 1.48l.06.06 8.5-8.6v-.2l-8.5-8.6-.06.06zm9.4 9.4 2.8 2.85-8.77 5.1c-.84.49-1.5.08-1.5-.9V4.68c0-.98.66-1.39 1.5-.9l8.72 5.1-2.75 2.72v.2zm3.33-3.37L15 6l2.35-2.35 4.81 2.7c1.37.8 1.37 2.1 0 2.9l-4.8 2.7L15 9.6l3.13-3.17z"/></svg>
             Google Play
           </a>
